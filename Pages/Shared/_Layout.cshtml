@@ -1,0 +1,645 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@if (Context.Request.Path.StartsWithSegments("/"))
+{
+    <head>
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DepSite</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      * {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: white;
+}
+.cont {
+  width: 100%;
+  margin: 0px;
+}
+.headquote {
+  font-size: 18px;
+  width: 70%
+}
+.top-header {
+  background: #2196f3;
+  padding: 5px 0px;
+  border-bottom: 2px solid #3131315e;
+}
+.news {
+  color: black;
+  padding: 10px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container img {
+    float: left;
+    height: 100px; 
+    margin-right: 10px; 
+    margin-left: 100px;
+    width: 80px;
+    cursor: pointer;
+  }
+
+  .college-name {
+    padding-left: 10px;
+    float: left;
+    font-size: 15px;
+    flex: 1;
+    cursor: pointer;
+  }
+
+  .clg1 {
+    font-weight: lighter;
+  }
+
+  .clg2 {
+    font-weight: bold;
+  }
+
+  .clg3 {
+    font-weight: lighter;
+  }
+
+  .clg4 {
+    color: red;
+    font-weight: bolder;
+  }
+
+  .clg1, .clg2, .clg3, .clg4 {
+    margin: 0%;
+    padding: 0%;
+  }
+  p {
+    margin: 0 0 10px;
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    color:aliceblue;
+    border-radius: 50%;
+    background-color: #111;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  .fa:hover {
+    background-color: #2196f3;;
+    opacity: 0.9;;
+  }
+  .social-media {
+    display: inline-flex;
+  }
+  .social-media i {
+    margin-left: 10px;
+  }
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  top: 0; 
+  border-top: 5px #111;
+  width: 100%;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-top: 5px #111;
+  background-color: #111;
+  transition-duration: 0.4s;
+}
+
+.active, .nav li a:hover {
+  background-color: #2196f3;
+}
+
+.image-container {
+  position: relative;
+}
+.slider-width {
+  width: 99vw;
+  height: 5%
+}
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity here */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.content {
+  color: black;
+  font-size: 70px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.margin-top-50 {
+  margin-top: 20px;
+}
+.news-100 {
+  width: 100%;
+  float: left;
+}
+.news-container {
+  width: 1500px;
+  margin: 0 auto;
+}
+.width-33 {
+  width: 33%;
+  float: left;
+}
+.latest-news {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: aliceblue;
+  padding: 20px;
+  height: 350px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+.latest-news:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.heading-sect {
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #cfcfcf;
+  margin: 0px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  border: 1px solid #cfcfcf;
+  padding-bottom: 10px;
+  background-color: #2196f3;
+  color: white;
+  text-align: center;
+}
+.heading {
+  margin: 0 px;
+  padding: 0px;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.latest-news-ul {
+  padding: 0px;
+  list-style: none;
+}
+.latest-news-ul li {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+  color: #111;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.news-date {
+  background-color: #03a9f4;
+  width: 30px;
+  float: left;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.stud-achivements {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color:aliceblue;
+  padding: 20px;
+  height: 350px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+.stud-achivements:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.stud-achivements-ul {
+  padding: 0px;
+  list-style: none;
+  line-height: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.notice-board {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: aliceblue;
+  padding: 20px;
+  height: 350px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+.notice-board:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.notice-board-ul {
+  padding: 0px;
+  list-style: none;
+  line-height: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.notice-board-ul li {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.gallery-head {
+  font-size: 50px;
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 2px 0px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.width-25 {
+  width: 25%;
+  float: left;
+}
+.gallery-img {
+  height: 250px;
+  width: auto;
+  cursor: pointer;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  text-justify: inter-word;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  color: white;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.margin-top-10 {
+  margin-top: 3px;
+}
+
+.placements-head {
+  font-size: 30px;
+  color: #111;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 40px;
+  font-weight: bolder;
+}
+.placements-marquee {
+  height: 100px;
+}
+.placements-marquee img{
+  height: 80px;
+  width: 140px;
+  border: 1px solid black;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  cursor: pointer;
+}
+.placements-marquee img:hover {
+  filter: grayscale(0%);
+}
+
+.footer {
+  background-color:#333;
+  padding: 50px 0px;
+}
+.quicklinks {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 40px;
+}
+.quicklinks-ul {
+  list-style: none;
+  padding-left: 10px;
+  margin-left: 40px;
+}
+.quicklinks-ul li a {
+  color: #fff;
+  line-height: 2.5;
+  font-size: 15px;
+  text-decoration: none;
+}
+.contact-us {
+  list-style: none;
+  padding-left: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.contact-us li i {
+  color: #ed372c;
+  font-size: 15px;
+}
+.contact-us li {
+  color: #fff;
+  line-height: 2.5;
+  font-size: 15px;
+}
+.footer-email {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+}
+.footer-social {
+  list-style: none;
+  margin-top: 10px;
+}
+.footer-social li {
+  float: left;
+  padding: 0px 8px;
+}
+.footer-social li img a {
+  width: 20px;
+}
+  </style>
+  <script>
+      let slideIndex = 1;
+
+function showSlideshow() {
+  document.getElementById('slideshow-container').style.display = 'block';
+  showSlides(slideIndex);
+}
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+}
+
+  </script>
+</head>}
+<body>
+    @if (Context.Request.Path.StartsWithSegments("/"))
+    {
+        <div class="width-1oo top-header">
+            <div class="cont">
+                <div class="width-100">
+                    <b class="news"> Announcements |</b>
+                    <marquee behaviour="scroll" onmouseover="this.stop();" onmouseout="this.start();" direction="left"  class="headquote">15th of April will be the last day of academic teaching for the semester.</marquee>
+                </div>
+            </div>
+        </div>
+        <nav class="header">
+            <div class="container">
+      <a class="navbar-brand" href="https://www.viit.ac.in/index.php" title="https://viit.ac.in" target="_blank">
+        <img src="~/Images/viit.png" alt="Vishwakarma Institute of Information Technology" class="img-responsive">
+        <div class="college-name">
+          <h4 class="clg1">Bansilal Ramnath Agarwal Charitable Trust's</h4>
+          <h1 class="clg2">Vishwakarma Institute of Information Technology</h1>
+          <hr />
+          <h4 class="clg3">(An Autonomous Institute affiliated to Savitri Bai Phule University)</h4>
+          <h4 class="clg4">Institute accredited with 'A' by NAAC</h4>
+        </div>
+      <a>
+
+      <div class="social-media">
+        <a href="mailto:viitpuneofficial@gmail.com" class="envelope" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/viit_pune" class="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/viitpu/?ref=bookmarks" class="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/channel/UCAkJjvfT8-h0Ex4E2P-Utfg" class="youtube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/school/viitpune/?viewAsMember=true" class="linkedin" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/viitpuneofficial/" class="instagram" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <i class="fa fa-phone" aria-hidden="true"></i>
+      </div>
+    </div>
+  </nav>}
+
+    @if (Context.Request.Path.StartsWithSegments("/"))
+    {
+        <ul class="nav">
+            <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#aboutus">About us</a></li>
+    <li><a href="#contactus">Contact us</a> </li>
+    <li><a href="/Login">Login</a></li>
+        </ul>
+
+    }
+
+    @if (Context.Request.Path.StartsWithSegments("/"))
+    {
+        <div class="image-container">
+            <img class="slider-width" src="~/Images/E.png">
+            <div class="image-overlay">
+                <p class="content">
+                    <b>Department of</b>
+                    <br>
+                    <b>Computer Science and</b>
+                    <br>
+                    <b>Engineering (AI)</b>
+                </p>
+            </div>
+        </div>
+
+        <div class="news-100 margin-top-50">
+            <div class="news-container">
+                <div class="width-33">
+                    <div class="latest-news">
+                        <div class="heading-sect">
+                            <h2 class="heading">Workshops</h2>
+                        </div>
+                        <div>
+                            <ul class="latest-news-ul">
+                                <li><span class="news-date">29<br>March</span><span>Full Stack Web application Backend development</span></li>
+                                <li><span class="news-date">27<br>March</span><span>DBMS-MongoDB Guest Lecture</span></li>
+                                <li><span class="news-date">26<br>March</span><span>No SQL Basics</span></li>
+                                <li><span class="news-date">22<br>March</span><span>DBMS Lecture MongoDB</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-33">
+                    <div class="stud-achivements">
+                        <div class="heading-sect">
+                            <h2 class="heading">Student Achievements</h2>
+                        </div>
+                        <marquee direction="up">
+                            <ul class="stud-achivements-ul">
+                                <li> >> Yashraj Nimbalkar, Yashashree Nimbalkar, Sakshi Vyavahare, Muskan - winners at PRAKALP 2024 for Big Data Project and Poster Presentation Competition <img src="~/Images/new.gif"></li>
+                                <li> >> Krish Agrawal - 3rd prize at DSSA or Unihand Codequest <img src="~/Images/new.gif"></li>
+                                <li> >> Neha Sawant - winner at Tech-Fest 2024 organised under Katalyst <img src="~/Images/new.gif"></li>
+                            </ul>
+                        </marquee>
+                    </div>
+                </div>
+                <div class="width-33">
+                    <div class="notice-board">
+                        <div class="heading-sect">
+                            <h2 class="heading">Notice Board</h2>
+                        </div>
+                        <ul class="notice-board-ul">
+                            <li><img src="~/Images/notice.png"> 4 April 2024 - Preparation for Planned Copyright Filing Marathon</li>
+                            <li><img src="~/Images/notice.png"> 10 to 13 April 2024 - Final Project Review 4 of DSML for SY</li>
+                            <li><img src="~/Images/notice.png"> 15 April 2024 - Conclusion of academic teaching</li>
+                            <li><img src="~/Images/notice.png"> 3 May - Practical ecams for SY</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="width-100 margin-top-50">
+            <div class="gallery-container">
+                <h3 class="gallery-head">Gallery</h3>
+                <div class="width-25"><img src="~/Images/clg1.jpg" class="gallery-img"></div>
+                <div class="width-25"><img src="~/Images/clg2.jpg" class="gallery-img"></div>
+                <div class="width-25"><img src="~/Images/clg3.jpg" class="gallery-img"></div>
+                <div class="width-25"><img src="~/Images/clg4.jpg" class="gallery-img"></div>
+                <div class="width-25"><img src="~/Images/clg5.jpg" class="gallery-img"></div>
+                <div class="width-25"><img src="~/Images/clg6.jpg" class="gallery-img"></div>
+                <div class="width-25"><img src="~/Images/clg7.jpg" class="gallery-img"></div>
+                <div class="width-25"><img src="~/Images/clg8.jpg" class="gallery-img"></div>
+                <div class="width-25"><img src="~/Images/clg9.jpg" class="gallery-img"></div>
+                <div class="width-25"><img src="~/Images/clg10.jpg" class="gallery-img"></div>
+                <div class="width-25"><img src="~/Images/clg11.jpg"class="gallery-img"></div>
+                <div class="width-25"><img src="~/Images/clg12.jpg" class="gallery-img"></div>
+            </div>
+        </div>
+
+        <div class="news-100 margin-top-10">
+            <div class="about-section">
+                <div class="about-content">
+                    <h1>About Us</h1>
+                    <p>Welcome to Study Material Website of Department of CSE-AI, dedicated to providing students<br>easy accessto essential   resources including notes, question papers, and academic calendars.</p>
+                    <p>Our platform aims to streamline the academic journey of CSE-AI students by offering a<br>centralized hub for study materials, exam schedules, and announcements. With user-friendly<br>navigation and a comprehensive collection of resources, we empower students to excel in<br>their academic endeavors.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="news-100 margin-top-50">
+            <div class="placements">
+                <h1 class="placements-head">Top Recruiters</h1>
+                <marquee class="placements-marquee">
+                    <img src="~/Images/recruiter-1.jpg">
+                    <img src="~/Images/recruiter-2.jpg">
+                    <img src="~/Images/recruiter-3.jpg">
+                    <img src="~/Images/recruiter-4.jpg">
+                    <img src="~/Images/recruiter-5.jpg">
+                    <img src="~/Images/recruiter-6.jpg">
+                    <img src="~/Images/recruiter-7.jpg">
+                    <img src="~/Images/recruiter-8.jpg">
+                    <img src="~/Images/recruiter-9.jpg">
+                    <img src="~/Images/recruiter-10.jpg">
+                </marquee>
+            </div>
+        </div>
+
+        <div class="news-100 margin-top-50 footer">
+            <div class="footer-section">
+      <div class="width-25">
+        <h2 class="quicklinks"> Quick Links</h2>
+        <ul class="quicklinks-ul">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="width-25">
+        <h2 class="quicklinks"> Student section</h2>
+        <ul class="quicklinks-ul">
+          <li><a href="#">Notes</a></li>
+          <li><a href="#">Syllabus</a></li>
+          <li><a href="#">Announcements</a></li>
+          <li><a href="#">PYQs</a></li>
+        </ul>
+      </div>
+      <div class="width-25">
+        <h2 class="quicklinks"> Information</h2>
+        <ul class="quicklinks-ul">
+          <li><a href="#">Workshops</a></li>
+          <li><a href="#">Student Achievements</a></li>
+          <li><a href="#">Notice Board</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="width-25">
+        <h2 class="contact-us"> Contact Us</h2>
+        <ul class="contact-us">
+          <li><i class="fa fa-envelope"></i><a href="#" class="footer-email"> cseai@viit.ac.in</a></li>
+          <li><i class="fa fa-headphones"></i> WhatsApp: +91 1234567890<a href="#"></a></li>
+          <li><i class="fa fa-fax"></i> Contact no: +91 9876543210<a href="#"></a></li>
+        </ul>
+        <ul class="footer-social">
+          <li><a href="https://www.facebook.com/viitpu/?ref=bookmarks"><img src="~/Images/facebook.png"></a></li>
+          <li><a href="https://twitter.com/viit_pune"><img src="~/Images/twitter.png"></a></li>
+          <li><a href="https://www.linkedin.com/school/viitpune/?viewAsMember=true"><img src="~/Images/linkedin.png"></a></li>
+          <li><a href="https://www.instagram.com/viitpuneofficial/"><img src="~/Images/nstagram.png"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>}
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

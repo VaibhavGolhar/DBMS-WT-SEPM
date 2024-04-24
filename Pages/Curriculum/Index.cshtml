@@ -1,0 +1,288 @@
+﻿@page
+@model DepSite.Pages.Curriculum.IndexModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Syllabus</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+          * {
+  margin: 0px;
+  padding: 0px;
+}
+.main-head {
+    background-color: white;
+}
+
+.cont {
+  width: 100%;
+  margin: 0px;
+}
+.headquote {
+  font-size: 18px;
+  width: 70%
+}
+.top-header {
+  background: #2196f3;
+  padding: 5px 0px;
+  border-bottom: 2px solid #3131315e;
+}
+.news {
+  color: black;
+  padding: 10px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container img {
+  float: left;
+  height: 100px; 
+  margin-right: 10px; 
+  margin-left: 100px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.college-name {
+  padding-left: 10px;
+  float: left;
+  font-size: 15px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.clg1 {
+  font-weight: lighter;
+}
+.clg2 {
+  font-weight: bold;
+}
+
+.clg3 {
+  font-weight: lighter;
+}
+.clg4 {
+  color: red;
+  font-weight: bolder;
+}
+.clg1, .clg2, .clg3, .clg4 {
+  margin: 0%;
+  padding: 0%;
+}
+p {
+  margin: 0 0 10px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    color:aliceblue;
+    border-radius: 50%;
+    background-color: #111;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  .fa:hover {
+    background-color: #2196f3;;
+    opacity: 0.9;;
+  }
+  .social-media {
+    display: inline-flex;
+  }
+  .social-media i {
+    margin-left: 10px;
+  }
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  top: 0; 
+  border-top: 5px #111;
+  width: 100%;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-top: 5px #111;
+  background-color: #111;
+  transition-duration: 0.4s;
+}
+.active, .nav li a:hover {
+  background-color: #2196f3;
+}
+.nav li a.special {
+  background-color: #2196f3; /* Background color for the special element */
+}
+
+.margin-top-50 {
+    margin-top: 20px;
+}
+.wid-100 {
+  width: 100%;
+  float: left;
+}
+.syllabus-container {
+  width: 1500px;
+  margin: 0 auto;
+}
+.width-15-1 {
+    width: 15%;
+    float: left;
+    padding: 20px;
+    height: 180px;
+    margin-left: 200px;
+    border-radius: 15%;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(188deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.width-15-1:hover {
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+}
+.sem-1-head {
+    margin-top: 80px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bolder;
+}
+.heading {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.width-15-2 {
+    width: 15%;
+    float: left;
+    padding: 20px;
+    height: 180px;
+    margin-left: 20px;
+    border-radius: 15%;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(188deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.width-15-2:hover {
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+      </style>
+    </head>
+    <body>
+        <div class="main-head">
+            <div class="width-1oo top-header">
+                <div class="cont">
+                    <div class="width-100">
+                       <b class="news"> Announcements |</b>
+                       <marquee behaviour="scroll" onmouseover="this.stop();" onmouseout="this.start();" direction="left"  class="headquote">15th of April will be the last day of academic teaching for the semester.</marquee>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="header">
+                <div class="container">
+                    <a class="navbar-brand" href="https://www.viit.ac.in/index.php" title="https://viit.ac.in" target="_blank">
+                        <img src="~/Images/viit.png" alt="Vishwakarma Institute of Information Technology" class="img-responsive">
+                        <div class="college-name">
+                            <h4 class="clg1">Bansilal Ramnath Agarwal Charitable Trust's</h4>
+                            <h1 class="clg2">Vishwakarma Institute of Information Technology</h1>
+                            <hr />
+                            <h4 class="clg3">(An Autonomous Institute affiliated to Savitri Bai Phule University)</h4>
+                            <h4 class="clg4">Institute accredited with 'A' by NAAC</h4>
+                        </div>
+                    <a>
+                    <div class="social-media">
+                      <a href="mailto:viitpuneofficial@gmail.com" class="envelope" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                      <a href="https://twitter.com/viit_pune" class="twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      <a href="https://www.facebook.com/viitpu/?ref=bookmarks" class="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href="https://www.youtube.com/channel/UCAkJjvfT8-h0Ex4E2P-Utfg" class="youtube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                      <a href="https://www.linkedin.com/school/viitpune/?viewAsMember=true" class="linkedin" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                      <a href="https://www.instagram.com/viitpuneofficial/" class="instagram" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                      <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </nav>
+
+            <ul class="nav">
+                <li><a class="active" href="/StudentLanding">Home</a></li>
+                <li><a href="#aboutus">About us</a></li>
+                <li><a href="/Curriculum" class="special">Curriculum</a></li>
+                <li><a href="/StudyMaterial">Study Material</a></li>
+                <li><a href="/Assignments">Assignments</a></li>
+                <li><a href="/Noticeboard">Notice Board</a></li>
+                <li><a href="#contactus">Contact us</a> </li>
+            </ul>
+        </div>
+
+        <div class="wid-100 margin-top-50">
+            <div class="syllabus">
+                <div class="width-15-1">
+                    <div class="sem-1-head">
+                        <h2><a href="" class="heading">Year 1</a></h2>
+                    </div>
+                </div>
+                <div class="width-15-2">
+                    <div class="sem-1-head">
+                        <h2><a href="https://drive.google.com/file/d/18QwmxgmEWZ0O0BZNunDKzKlQ0o4kUWxR/view?usp=sharing" target="_blank" class="heading">Year 2</a></h2>
+                    </div>
+                </div>
+          
+            </div>
+        </div>
+        <div class="wid-100 margin-top-50">
+            <div class="syllabus">
+                <div class="width-15-1">
+                    <div class="sem-1-head">
+                        <h2><a href="" class="heading">Year 3</a></h2>
+                    </div>
+                </div>
+                <div class="width-15-2">
+                    <div class="sem-1-head">
+                        <h2><a href="" class="heading">Year 4</a></h2>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

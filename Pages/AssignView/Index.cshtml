@@ -1,0 +1,48 @@
+﻿@page
+@model DepSite.Pages.AssignView.IndexModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+</head>
+<body>
+    <h1>Assignments</h1>
+    <h2>Subject: <%= Request.QueryString["subject"] %></h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Assignment</th>
+                <th>Status</th>
+                <th>Deadline</th>
+                <th>Remarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Here you would fetch assignments for the selected subject from your database -->
+            <!-- Loop through assignments and display them -->
+            <%
+                // Example code for fetching and displaying assignments (replace this with actual database interaction)
+                string selectedSubject = Request.QueryString["subject"];
+                // Assume assignments are fetched from a database
+                List<Assignment> assignments = GetAssignmentsForSubject(selectedSubject);
+                foreach (Assignment assignment in assignments)
+                {
+            %>
+            <tr>
+                <td><%= assignment.Name %></td>
+                <td><%= assignment.Status %></td>
+                <td><%= assignment.Deadline %></td>
+                <td><%= assignment.Remarks %></td>
+            </tr>
+            <%
+                }
+            %>
+        </tbody>
+    </table>
+</body>
+</html>

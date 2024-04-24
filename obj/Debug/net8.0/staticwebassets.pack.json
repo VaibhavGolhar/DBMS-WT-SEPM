@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "Z:\\Downloads\\DepSite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DepSite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DepSite.bundle.scp.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\E.png",
+      "PackagePath": "staticwebassets\\Images\\E.png"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\call.png",
+      "PackagePath": "staticwebassets\\Images\\call.png"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg1.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg1.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg10.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg10.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg11.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg11.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg12.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg12.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg2.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg2.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg3.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg3.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg4.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg4.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg5.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg5.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg6.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg6.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg7.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg7.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg8.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg8.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\clg9.jpg",
+      "PackagePath": "staticwebassets\\Images\\clg9.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\cool-background.png",
+      "PackagePath": "staticwebassets\\Images\\cool-background.png"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\facebook.png",
+      "PackagePath": "staticwebassets\\Images\\facebook.png"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\gfg.png",
+      "PackagePath": "staticwebassets\\Images\\gfg.png"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\img1.jpg",
+      "PackagePath": "staticwebassets\\Images\\img1.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\linkedin.png",
+      "PackagePath": "staticwebassets\\Images\\linkedin.png"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\new.gif",
+      "PackagePath": "staticwebassets\\Images\\new.gif"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\notice.png",
+      "PackagePath": "staticwebassets\\Images\\notice.png"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\nstagram.png",
+      "PackagePath": "staticwebassets\\Images\\nstagram.png"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\recruiter-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\recruiter-1.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\recruiter-10.jpg",
+      "PackagePath": "staticwebassets\\Images\\recruiter-10.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\recruiter-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\recruiter-2.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\recruiter-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\recruiter-3.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\recruiter-4.jpg",
+      "PackagePath": "staticwebassets\\Images\\recruiter-4.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\recruiter-5.jpg",
+      "PackagePath": "staticwebassets\\Images\\recruiter-5.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\recruiter-6.jpg",
+      "PackagePath": "staticwebassets\\Images\\recruiter-6.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\recruiter-7.jpg",
+      "PackagePath": "staticwebassets\\Images\\recruiter-7.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\recruiter-8.jpg",
+      "PackagePath": "staticwebassets\\Images\\recruiter-8.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\recruiter-9.jpg",
+      "PackagePath": "staticwebassets\\Images\\recruiter-9.jpg"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\twitter.png",
+      "PackagePath": "staticwebassets\\Images\\twitter.png"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\viit.png",
+      "PackagePath": "staticwebassets\\Images\\viit.png"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\Images\\viit2.png",
+      "PackagePath": "staticwebassets\\Images\\viit2.png"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "Z:\\Downloads\\DepSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DepSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DepSite.props",
+      "PackagePath": "build\\DepSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DepSite.props",
+      "PackagePath": "buildMultiTargeting\\DepSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DepSite.props",
+      "PackagePath": "buildTransitive\\DepSite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

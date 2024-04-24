@@ -1,0 +1,228 @@
+﻿@page
+@model DepSite.Pages.Login.IndexModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="~/css/site.css" />
+      <title>Login page</title>
+      <style>
+          * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+body {
+  background-color: white;
+  font-family: 'roboto', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+.cont {
+  width: 100%;
+  margin: 0px;
+}
+.headquote {
+  font-size: 18px;
+  width: 80%
+}
+.top-header {
+  background: #2196f3;
+  padding: 5px 0px;
+  border-bottom: 2px solid #3131315e;
+}
+.news {
+  color: black;
+  padding: 10px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.image-container {
+    position: relative;
+}
+.slider-width {
+  width: 99vw;
+  height: 5%
+}
+.form {
+    width: 400px;
+    height: auto;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+}
+.login-heading {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.image-container {
+    position: relative;
+}
+.slider-width {
+  width: 99vw;
+  height: 5%
+}
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: 100%;
+  background-color: rgba(94, 90, 90, 0.552);
+  display: flex;
+  justify-content: center;
+  align-items:self-start;
+}
+.form {
+    width: 400px;
+    height: auto;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+.form input, 
+.btn {
+    width: 80%;
+    height: 35px;
+    display: block;
+    margin: 20x auto;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.4);
+    border: none;
+    color: #fff;
+    padding: 15px;
+    transition: 0.5s;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.form input::placeholder {
+    color: #fff;
+}
+.form input:focus {
+    background-color: #fff;
+    color: black;
+}
+.form input:focus::placeholder {
+    color: black;
+}
+.login-heading {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+}
+.btn {
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 30px auto 0;
+    transition: box-shadow 0.3s ease;
+}
+.log-head {
+  text-decoration: none;
+}
+.submit:hover {
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.no-acc {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    display: block;
+    margin: 20px auto;
+}
+.no-acc:hover {
+    color: #fff;
+}
+.alert {
+  background-color: #f8d7da; /* Red color */
+  color: #721c24; /* Text color */
+   padding: 0.3rem; /* Adjusted padding */
+  margin-bottom: 0.5rem;  /* Adjusted margin */
+  border: 1px solid #f5c6cb; /* Border color */
+  border-radius: 0.25rem; /* Border radius */
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  max-width=50%;
+}
+.loginContainer {
+    width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.formBox {
+    background-color: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+#username::placeholder{color:gray;}
+#password::placeholder{color:gray;}
+
+
+
+
+      </style>
+      <script>
+
+      </script>
+    </head>
+
+
+    <body>
+        <div class="width-1oo top-header">
+            <div class="cont">
+                <b class="news"></b>
+                <marquee behaviour="scroll" onmouseover="this.stop();" onmouseout="this.start();" direction="left"  class="headquote">Welcome to Department of Computer Science and Engineering (Artificial Intelligence)!!</marquee>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img class="slider-width" src="~/Images/E.png">
+            <div class="image-overlay">
+                <div class="inner-box">
+                    <div class="form">
+                        <h1 class="login-heading">Login</h1>
+                    @if (!string.IsNullOrEmpty(ViewData["ErrorMessage"] as string))
+                    {
+                <div class="alert" role="alert">
+                            @ViewData["ErrorMessage"]
+                </div>
+                    }
+                    <div class="loginContainer">
+                        <div class="formBox">
+                       <form method="post">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="PRN" id="username" name="username" style="background-color: white; color: black;"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Password" id="password" name="password" style="background-color: white; color: black;"/>
+                            </div>
+                            <button type="submit" class="btn" style="background-color: azure; color: black;">Login</button>
+                            <a href="mailto:viitpuneofficial@gmail.com" class="no-acc" style="color: white;">Don't have an account? Contact admin</a>
+                        </form>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
