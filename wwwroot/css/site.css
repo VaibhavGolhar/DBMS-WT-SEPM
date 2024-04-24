@@ -1,0 +1,58 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/* Navigation Bar */
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+    .navbar-brand img {
+        height: 50px; /* Adjust height as needed */
+        margin-right: 10px; /* Adjust spacing as needed */
+    }
+
+.college-name {
+    flex: 1;
+}
+
+.social-media a {
+    color: white;
+    margin-right: 10px;
+}
+
+.social-media i {
+    font-size: 20px;
+}
